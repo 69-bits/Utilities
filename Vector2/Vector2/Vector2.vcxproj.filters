@@ -15,15 +15,27 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Prerequisites.h">
-      <Filter>Archivos de origen</Filter>
+    <ClInclude Include="include\Vector4.h">
+      <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="Vector2.h">
-      <Filter>Archivos de origen</Filter>
+    <ClInclude Include="include\Vector3.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Prerequisites.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Vector2.h">
+      <Filter>Archivos de encabezado</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Vector2.cpp">
+    <ClCompile Include="src\Vector4.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Vector3.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Vector2.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>
