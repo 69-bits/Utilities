@@ -1,6 +1,6 @@
 #pragma once
 #include "Prerequisites.h"
-
+/*
 class Vector4 {
 public:
 
@@ -67,4 +67,4 @@ public:
   float y;
   float z;
   float w;
-};
+};*/
